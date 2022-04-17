@@ -23,3 +23,7 @@ Un servicio identifica sus pods miembros con un selector. Para que un pod sea mi
 
 ![imagen-services](https://github.com/ltiisidii/kubernetes-tux/blob/main/tnK94zrEwyNe1hL-PhJXOA.png)
 
+# Soluciones de Storage
+
+![imagen-storage](https://github.com/ltiisidii/kubernetes-tux/blob/main/eUpYUJz3bTBAcyMCI6ThOw.png)
+
