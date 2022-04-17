@@ -62,5 +62,10 @@ Un ConfigMap es un objeto de la API que permite almacenar la configuración de o
 
 # ¿Que hace KubeDNS?
 
+# ¿De que se encarga ETCD?
 
+Kubernetes usa etcd como su base de datos.
 
+ETCD almacena el estado real del sistema y el estado deseado del sistema, luego usa la funcionalidad de observación de etcd para monitorear los cambios en cualquiera de estas dos cosas. Si divergen, Kubernetes realiza cambios para conciliar el estado real y el estado deseado.
+
+# 
