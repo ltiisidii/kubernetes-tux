@@ -13,6 +13,10 @@ Los pods son los objetos más pequeños y básicos que se pueden implementar en 
 
 Los pods contienen uno o más contenedores, como los contenedores de Docker. Cuando un pod ejecuta varios contenedores, estos se administran como una sola entidad y comparten los recursos del pod. En general, ejecutar varios contenedores en un solo pod representa un caso práctico avanzado.
 
+# ¿Que es un nodo?
+
+Un nodo es una máquina de trabajo en Kubernetes, previamente conocida como minion . Un nodo puede ser una máquina virtual o física, dependiendo del tipo de clúster. Cada nodo está gestionado por el componente máster y contiene los servicios necesarios para ejecutar pods.
+
 # ¿Qué es un Service de Kubernetes?
 
 El concepto de servicio es agrupar un conjunto de extremos de pod en un solo recurso. Puedes configurar varias formas para acceder a la agrupación. De forma predeterminada, obtienes una dirección IP de clúster estable que los clientes dentro del clúster pueden usar para comunicarse con los pods en el servicio. Un cliente envía una solicitud a una dirección IP estable, y la solicitud se enruta a uno de los pods en el servicio.
@@ -27,3 +31,4 @@ Un servicio identifica sus pods miembros con un selector. Para que un pod sea mi
 
 ![imagen-storage](https://github.com/ltiisidii/kubernetes-tux/blob/main/eUpYUJz3bTBAcyMCI6ThOw.png)
 
+# 
